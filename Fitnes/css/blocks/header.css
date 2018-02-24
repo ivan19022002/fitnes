@@ -1,0 +1,113 @@
+.header__center{ 
+  font-size:12px;
+  font-family:Open sans, sans-serif;
+  font-weight:bold;
+  text-align: center;
+  margin-right: 70px;
+}
+.header{
+  height: 76px;
+  background-color: #131415;
+}
+.header__left,
+.header__center,
+.header__right{
+  display: inline-block;
+}
+.header__left{
+  margin-top: 32px;
+  margin-right: 50px;
+}
+.home__button a,
+.reviews__button a,
+.services__button  a{
+  text-decoration: none;
+  color: #c7c7c7;
+}
+
+  
+}
+.header__right{
+
+}
+.container{
+  text-align: center;
+}
+.home__button,
+.reviews__button,
+.services__button{
+  display: inline-block;
+}
+.home__button,
+.reviews__button{
+  margin-right: 28px;
+}
+.menu__element{
+  margin-left: 18px;
+}
+.contacts__phone,
+.contacts__text{
+  display: block;
+}
+.contacts__phone{
+  font-size:21px;
+  font-family:Open sans, sans-serif;
+  font-weight:bold;
+  color:#c7c7c7;
+}
+.contacts__text{
+  font-size:14px;
+  font-family:Open sans, sans-serif;
+  font-weight: bold;
+  color:#f89513;
+}
+.hb__img{
+  background-image: url(../../images/icons/menu-icons/home-icon/home-icon.png);
+  width: 19px;
+  height: 14px;
+  display: inline-block;
+  position: relative;
+  vertical-align:middle;
+  margin-right: 18px;
+}
+.home__button a:hover .hb__img{
+background-image: url(../../images/icons/menu-icons/home-icon/home-icon__hover.png);
+}
+.home__button a:hover{
+  color: #221f1f;
+}
+.rb__img{
+  background-image: url(../../images/icons/menu-icons/review-icon/review-icon.png);
+  width: 19px;
+  height: 18px;
+  display: inline-block;
+  position: relative;
+  vertical-align:middle;
+  margin-right: 17px;
+  margin-left: 0px;
+  }
+.reviews__button a:hover .rb__img{
+ background-image: url(../../images/icons/menu-icons/review-icon/review-icon__hover.png);
+}
+.reviews__button a:hover{
+color: #221f1f;
+}
+  .sb__img{
+  background-image: url(../../images/icons/menu-icons/services-icon/services-icon.png);
+  width: 19px;
+  height: 14px;
+  display: inline-block;
+  position: relative;
+  vertical-align:middle;
+  margin-right: 17px;
+  margin-left: 0px;
+  }
+.services__button a:hover .sb__img{
+  background-image: url(../../images/icons/menu-icons/services-icon/services-icon__hover.png);
+}
+.services__button a:hover{
+color: #221f1f;
+}
+.header__right a:hover{
+  color: #cdcdcd;
+}
